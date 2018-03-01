@@ -4,20 +4,17 @@ jQuery(document).ready(function($){
 		// alert('enviou email');
 		// configura o redirecionamento
 
-		if ( jQuery( "input[name=numero-de-funcionarios]:checked ").val() == "Grupo A: até 100 pessoas." ) { 
+		if ( jQuery( "input[name=name-do-input]:checked ").val() == "a" ) { 
 
-			location='https://abrhsp.org.br/pagamento-pessoa-juridica-grupo-a/';
-			alert('grupo a');
+			location='url-para-direcionamento';
 
-		} else if (jQuery( "input[name=numero-de-funcionarios]:checked " ).val() == "Grupo B: de 101 até 500 pessoas."){
+		} else if (jQuery( "input[name=name-do-input]:checked " ).val() == "b"){
 
-			location='https://abrhsp.org.br/pagamento-pessoa-juridica-grupo-b/';
-			alert('grupo b');
+			location='url-para-direcionamento';
 
 		} else { 
 
-			location='https://abrhsp.org.br/pagamento-pessoa-juridica-grupo-c/';
-			alert('grupo c');
+			location='url-para-direcionamento';
 		}
 
 	});
